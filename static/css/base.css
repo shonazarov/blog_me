@@ -1,0 +1,28 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: ǐǗpx;
+    }
+
+header h1 a {
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+li a {
+    text-decoration: none;
+    color:blue;
+    font-weight: 700;
+
+}
+
+.blog-list{
+    list-style-type: none;
+}
+
+.blog-list a:hover {
+    color: blueviolet;
+    text-decoration: underline;
+    font-weight: 700;
+    text-decoration-thickness: 2px;
+}

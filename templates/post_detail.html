@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <ul class="blog-list">
+            <li>
+                <a href="">{{blog.title}} </a>
+            </li>
+            <li>
+                {{blog.author}}
+            </li>
+            <p>
+                {{blog.body}}
+            </p>
+    </ul>        
+{%  endblock content %}
